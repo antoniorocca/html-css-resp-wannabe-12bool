@@ -1,8 +1,34 @@
 h1 {
   text-align: center;
+  padding: 40px;
 }
 
-img {
-  width: 100%;
-  
+h3 {
+  margin-bottom: 20px;
+}
+
+#casa {
+  width: 30%;
+}
+
+#online {
+  width: 50%;
+}
+
+#profile, #secure, #flex {
+  width: 20%;
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #profile, #secure, #flex {
+    width: 40%;
+  }
 }
